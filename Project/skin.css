@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+img {
+  width: 100px;
+}
+
+/* nav css */
+nav img {
+  width: 90px;
+  background-color: #736f72;
+  border-radius: 40px;
+  height: 90px;
+  padding: 2px;
+  margin: 5px;
+}
+nav {
+  width: 100%;
+  height: 8vh;
+  background-color: #736f72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: #736f72;
+  width: 100%;
+  /* box-shadow: 2px 2px 3px; */
+  position: fixed;
+}
+nav ul li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 2px 2px 3px;
+  padding: 2px 20px;
+  border-radius: 5px;
+  background-color: #595959;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.sale1 {
+  background-color: rgb(213, 6, 6);
+}
+.sale1 a {
+  color: white;
+}
+/* header */
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #b1a7a6;
+}
+.header h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.header h1 span {
+  font-size: 5rem;
+}
+/* section */
+
+section {
+  background-color: #b1a7a6;
+}
+
+section h2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* .cards {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px;
+} */
+section .cards {
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  width: 30%;
+  height: 40vh;
+  border: 1px solid black;
+  margin: 3px;
+  background-image: url(./Images/body\ 2.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px;
+}
+.card2 {
+  width: 40%;
+  height: 42vh;
+  border: 1px solid black;
+  margin: 3px;
+  background-image: url(./Images/body\ 1.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px;
+}
+.card2 h2 span {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.card3 {
+  width: 30%;
+  height: 40vh;
+  border: 1px solid black;
+  margin: 3px;
+  background-image: url(./Images/brushess.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px;
+}
+
+/* Section 2 Table CSS */
+.section2 {
+  width: 100%;
+  height: 6vh;
+  background-color: #b1a7a6;
+  border-radius: 5px;
+  margin: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.section2 span {
+  font-size: 3rem;
+}
+
+/* table CSS */
+.section2 th {
+  font-size: 4rem;
+}
+table {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40%;
+  height: 30vh;
+  background-color: #736f72;
+  box-shadow: 2px 2px 3px;
+  margin: 2px;
+}
+td {
+  text-align: center;
+  border: 1px solid black;
+  background-color: #b1a7a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+}
+th {
+  background-color: #736f72;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+}
+
+/* Aside CSS--Dropdown CSS */
+/* .drop {
+  display: flex;
+  flex-direction: row;
+} */
+.aside {
+  width: 100%;
+  height: 30vh;
+  margin: 3px;
+}
+.aside h2 span {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: right;
+}
+.select {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #736f72;
+  margin: 2px;
+  border-radius: 5px;
+}
+.select span {
+  font-size: 3rem;
+}
+.select .menu {
+  font-size: 2rem;
+}
+.menu {
+  background-color: #736f72;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #736f72;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+}
+.about {
+  font-size: 0.8rem;
+}
+.about span {
+  font-size: 2.5rem;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+footer .contact span {
+  padding: 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: black;
+}
+.socials {
+  display: inline;
+}

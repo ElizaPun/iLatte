@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+  }
+  /* universal command to fit all pic into the frame */
+  img{
+      width: 100%;
+  }
+  /* nav */
+  nav{
+      width: 100%;
+      box-shadow: 0px 1px 2px rgba(1, 2, 3, 0.5) ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 5px;
+  }
+  nav img{
+      width: 100px;
+      margin: 4px;
+      border-radius: 30%;
+  }
+  nav ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 2px;
+  }
+  nav ul li{
+      padding: 3px;
+      color: #14234f;
+  }
+  nav ul li a{
+      text-decoration: none;
+  }
+  .createbtn{
+      background-color: #ff5a5f;
+      color: #fff;
+      border: none;
+      padding: 5px 8px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+  }
+  
+  
+  /* header */
+  header {
+    display: flex;
+    height: 80vh;
+    background: url("./images/bible-7092020_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .headercontent {
+    text-align: center;
+    padding: 10px;
+  }
+  .headercontent h1 {
+    font-size: 4rem;
+    padding: 15px;
+    margin-top: 20px;
+    color: #14234f;
+  }
+  .headercontent a {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+     padding 15px 20px;
+     cursor: pointer;
+     text-decoration: none;
+  }
+  
+  p{
+      color: black;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+  }
+  /* footer */
+  footer{
+      width: 100%;
+      height: 180px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+      color: black;
+      background-color: antiquewhite;
+  }
+  footer .about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  footer .contact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      color:black;
+      margin-bottom: 1px;
+      font-size: 1rem;
+  
+  }
+  footer .contact span{
+      padding: 10px;
+  }
+  footer .contact i{
+      padding: 10px;
+      font-size: 30px;
+  }
+  footer .contact a{
+      padding: 2px;
+      text-decoration: none;
+      margin: 10px;
+  }
+  footer .socials a{
+      padding: 10px;
+      margin: 2px;
+  }
+  footer p{
+      color: slategrey;
+  }
+  .logotext{
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: darkgray;
+  }
+  
+  /* mobile first responsive design */
+  @media(min-width:675px){
+      nav{
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      nav ul{
+          flex-direction: row;
+          align-items:center ;
+          justify-content: space-between;
+          margin-right: 20px;
+      }
+      nav ul li{
+          padding: 10px;
+  
+      }
+  }
+  /* layout */
+  .containerflex{
+      display: flex;
+      max-width: 1900px;
+      flex-direction: row;
+      margin:0 auto;
+      background-color: #fff;
+  }
+  main{
+      width: 70%;
+      padding: 10px;
+  }
+  aside{
+      width: 30%;
+  }
+  .postcontent{
+      padding: 10px;
+  }
+  .postinfo{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color: grey;
+  }
+  .postauthor{
+      margin: 10px;
+  }
+  .postcontent h1{
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #14213d;
+      font-weight: bold;
+  }
+  aside{
+      padding: 10px;
+  }
+  .aboutme{
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0px 1px 1px black;
+  }
+  .aboutme img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin: 0 auto;
+  }
